@@ -7,6 +7,7 @@ import android.view.View.OnClickListener
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.erikjensenworks.kolorkombat.data.DataInitializer
 
 private const val TAG = "MainActivity"
 
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //DataInitializer.initializeData()
 
         tvTitle = findViewById(R.id.tvTitle)
         buttColorPicker = findViewById(R.id.buttColorPicker)

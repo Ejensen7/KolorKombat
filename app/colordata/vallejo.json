@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "productNameModel": "String",
+    "productNameGame": "String",
+    "price": 1.0
+  },
+  {
+    "id": 2,
+    "productNameModel": "String2",
+    "productNameGame": "String2",
+    "price": 2.0
+  }
+]
